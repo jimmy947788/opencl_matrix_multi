@@ -1,0 +1,1 @@
+../bin/matrix5_dot_matrix5 ../kernels/matrix5_dot_matrix5.cl
