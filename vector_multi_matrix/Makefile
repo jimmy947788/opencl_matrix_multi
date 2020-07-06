@@ -52,6 +52,7 @@ endif
 
 $(PROJ): main.c
 	$(CC) $(CFLAGS) -o ../bin/$@ $^ $(INC_DIRS:%=-I%) $(LIB_DIRS:%=-L%) $(LIBS)
+	cp *.cl ../bin/$(PROJ).cl
 
 .PHONY: clean
 

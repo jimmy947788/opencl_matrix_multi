@@ -1,1 +1,1 @@
-../bin/vector_multi_matrix ../kernels/vector_multi_matrix.cl
+../bin/vector_multi_matrix ../bin/vector_multi_matrix.cl
