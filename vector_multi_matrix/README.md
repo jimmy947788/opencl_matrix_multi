@@ -11,7 +11,8 @@
 
 ## 編譯方法
 ```bash
-make #編譯
+make #編譯release版本
+make ver=debug #編譯debug版本
 make clean #清除編譯結果
 ```
 > 編譯結果在 ../bin/ 路徑下
